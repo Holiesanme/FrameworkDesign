@@ -10,7 +10,7 @@ The application is simulating sending out two messages: Fizz and Buzz.
 
 Whenever the user clicks a button, an Action is emitted. (src/app/fizzbuzz.action.ts)
 
-This action is then handled by the reducer (src/app/reducer.action.ts) which updates the State provided by ngrx.
+This action is then handled by the reducer (src/app/reducer.action.ts) which updates the Store provided by ngrx.
 
 Since the Store is connected to the component (src/app/my-fizbuzz/my-fizzbuzz.component.ts) via the constructor, and we have an Observable string (count$) that listens to the current state of store, it is updated and the newly composed value is refreshed in the html.
 
