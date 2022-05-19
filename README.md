@@ -1,7 +1,12 @@
 # FrameworkDesign
 
 This is a small project made to demonstrate the usage of the ngrx store and reducer.
-The application is simulating sending out two messages: Fizz and Buzz. Whenever the user clicks a button, an Action is emitted. (src/app/fizzbuzz.action.ts)
+The application is simulating sending out two messages: Fizz and Buzz. 
+
+![image](https://user-images.githubusercontent.com/38786556/169396129-0f41f5ee-0818-4c9a-ae2d-d4a255467cec.png)
+
+
+Whenever the user clicks a button, an Action is emitted. (src/app/fizzbuzz.action.ts)
 
 This action is then handled by the reducer (src/app/reducer.action.ts) which updates the State provided by ngrx.
 
