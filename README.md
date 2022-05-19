@@ -1,11 +1,11 @@
 # FrameworkDesign
 
 This is a small project made to demonstrate the usage of the ngrx store and reducer.
-The application is simulating sending out two messages: Fizz and Buzz. Whenever the user clicks a button, an Action is emitted.
+The application is simulating sending out two messages: Fizz and Buzz. Whenever the user clicks a button, an Action is emitted. (src/app/fizzbuzz.action.ts)
 
-This action is then handled by the reducer which updates the State.
+This action is then handled by the reducer (src/app/reducer.action.ts) which updates the State provided by ngrx.
 
-Since the Store is connected to the component via the constructor, and we have an Observable string that listens to the current state of store, it is updated and the newly composed value is displayed.
+Since the Store is connected to the component (src/app/my-fizbuzz/my-fizzbuzz.component.ts) via the constructor, and we have an Observable string (count$) that listens to the current state of store, it is updated and the newly composed value is refreshed in the html.
 
 In order to check the app out, enter
 
