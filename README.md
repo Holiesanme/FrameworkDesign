@@ -3,7 +3,9 @@
 This is a small project made to demonstrate the usage of the ngrx store and reducer.
 The application is simulating sending out two messages: Fizz and Buzz. 
 
-![image](https://user-images.githubusercontent.com/38786556/169396129-0f41f5ee-0818-4c9a-ae2d-d4a255467cec.png)
+
+![image](https://user-images.githubusercontent.com/38786556/169396172-dbfd27e1-05d1-43d1-85f6-6e4ae365ae69.png)
+
 
 
 Whenever the user clicks a button, an Action is emitted. (src/app/fizzbuzz.action.ts)
